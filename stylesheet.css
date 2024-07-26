@@ -37,7 +37,6 @@ body {
   ul {
     color: #000500;
     display: inline-block;
-    text-align: center;
     list-style-position: inside;
     
   }
@@ -45,7 +44,11 @@ body {
   a {
     color: #000500;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
+  }
+
+  a:hover {
+    color: aqua;
   }
 
  .normal{
@@ -54,29 +57,12 @@ body {
     margin: auto;
  }
 
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #6665DD;
-    float: left;
-    width: 180px;
-  }
+ .projects{
+    width: auto;
+    margin: auto;
+ } 
+
   
-  div.gallery:hover {
-    border: 1px solid #1E1AD8;
-  }
-  
-  div.gallery img {
-    width: 400;
-    height: 250;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
 
   .grid {
     display: grid;
