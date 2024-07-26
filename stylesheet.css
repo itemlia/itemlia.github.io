@@ -67,7 +67,7 @@ body {
   }
   
   div.gallery img {
-    width: 100%;
+    width: auto;
     height: auto;
     display: block;
     margin-left: auto;
