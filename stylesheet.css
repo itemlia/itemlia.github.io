@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p.a {
+    text-align: center;
+    border-style: double;
+  }
+
+  ul {
+    border-style: double;
+  }
