@@ -44,11 +44,11 @@ body {
   a {
     color: #000500;
     display: inline-block;
-    text-align: justify;
+    align-items: center;
   }
 
   a:hover {
-    color:cornflowerblue;
+    color:rgb(25, 81, 185);
   }
 
  .normal{
@@ -58,10 +58,11 @@ body {
  }
 
  .projects{
-    width: auto;
+    position: fixed;
+    width: 50%;
     margin: auto;
-    display: block;
-    align-content: center;
+    display: inline-block;
+    text-align: center;
  } 
 
   .column {
