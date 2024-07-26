@@ -60,7 +60,8 @@ body {
  .projects{
     width: auto;
     margin: auto;
-    align-items: center;
+    display: block;
+    align-content: center;
  } 
 
   .column {
