@@ -3,12 +3,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
   }
 
- image.center {
+ /* image.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+  } */
   
   h1 {
     color: #1C11B5;
@@ -58,11 +58,10 @@ body {
  }
 
  .projects{
-    position: fixed;
-    width: 50%;
-    margin: auto;
+    vertical-align: top;
     display: inline-block;
     text-align: center;
+    width: 120px;
  } 
 
   .column {
