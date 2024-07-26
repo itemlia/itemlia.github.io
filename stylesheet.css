@@ -23,7 +23,7 @@ body {
   p.a {
     color: #000500;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     
   }
 
@@ -31,6 +31,7 @@ body {
     color: #000500;
     display: inline-block;
     text-align: center;
+    list-style-position: outside;
     
   }
 
@@ -40,8 +41,9 @@ body {
     margin: auto;
   }
 
+
   a {
     color: #000500;
     display: inline-block;
-    text-align: right;
+    text-align: center;
   }
