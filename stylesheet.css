@@ -31,7 +31,7 @@ body {
     color: #00043D;
     display: inline-block;
     text-align: center;
-    font-size: smaller;
+    font-size: 14px;
   }
 
   ul {
@@ -52,5 +52,26 @@ body {
   a {
     color: #000500;
     display: inline-block;
+    text-align: center;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #6665DD;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #1E1AD8;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
     text-align: center;
   }
