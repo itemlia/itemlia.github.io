@@ -37,7 +37,7 @@ body {
   ul {
     color: #000500;
     display: inline-block;
-    list-style-position: inside;
+    list-style-position: outside;
     
   }
 
@@ -59,7 +59,7 @@ body {
  }
 
  .projects{
-    vertical-align: middle;
+    position: absolute;
     display: inline-block;
     text-align: center;
     width: 120px;
