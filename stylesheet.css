@@ -62,9 +62,8 @@ body {
    margin-bottom: 40px;
    display: block;
    text-align: center;
-   border-style: double;
-   width: 500px;
-   margin: auto;
+   border-style: solid;
+  
  } 
 
   .column {
