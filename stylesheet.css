@@ -67,7 +67,7 @@ body {
  } 
 
   .column {
-    float:right;
+    float:left;
     padding: 10px;
   }
  
@@ -79,8 +79,8 @@ body {
     width: 50%;
   }
   
-  .row::after {
+  /* .row::after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
