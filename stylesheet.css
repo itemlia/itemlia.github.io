@@ -70,7 +70,8 @@ body {
    height: auto;
    margin: auto;
    margin-bottom: 40px;
-   display: table;
+   display: grid;
+   text-align: center;
  } 
 
   .column {
