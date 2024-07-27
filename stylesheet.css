@@ -66,11 +66,8 @@ body {
  }
 
  .child{
-   width: auto;
-   height: auto;
-   margin: auto;
    margin-bottom: 40px;
-   display: grid;
+   display: block;
    text-align: center;
  } 
 
