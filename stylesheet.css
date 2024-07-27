@@ -72,16 +72,16 @@ body {
  } 
 
   .column {
-    float: left;
+    float:inline-start;
     padding: 10px;
   }
  
   .column.side {
-    width: 25%;
+    width: 20%;
   }
   
   .column.middle {
-    width: 50%;
+    width: 40%;
   }
   
   .row::after {
