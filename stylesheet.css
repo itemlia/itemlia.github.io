@@ -58,13 +58,6 @@ body {
     text-align: center;
  }
 
- #parent {
-  position: relative;
-  width: auto;
-  height: auto;
-  background-color: antiquewhite;
- }
-
  .child{
    margin-bottom: 40px;
    display: block;
