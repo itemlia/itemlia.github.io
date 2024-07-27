@@ -69,7 +69,7 @@ body {
    width: auto;
    height: auto;
    margin: auto;
-   display: block;
+   display: inline-flexbox;
  } 
 
   .column {
