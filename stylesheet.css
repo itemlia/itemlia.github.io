@@ -69,8 +69,8 @@ body {
    width: auto;
    height: auto;
    margin: auto;
-   margin-bottom: 10px;
-   display: inline-block;
+   margin-bottom: 40px;
+   display: table;
  } 
 
   .column {
