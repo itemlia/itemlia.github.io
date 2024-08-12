@@ -60,9 +60,10 @@ body {
 
  .child{
    padding-bottom: 0%;
-   display: inline-block;
+   /*display: inline-block;*/
    text-align: center;
    border-style: solid;
+   margin: auto;
  } 
 
  .center.project{
