@@ -59,14 +59,15 @@ body {
  }
 
  .child{
-   padding-bottom: 3px;
+   padding-bottom: 10px;
    text-align: center;
    border-style: solid;
    margin: auto;
-   width: 1200px;
+   width: 900px;
  } 
 
  .center.project{
   padding-bottom: 2px;
+  padding-top: 2px;
  }
   
