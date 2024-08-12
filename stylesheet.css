@@ -59,8 +59,7 @@ body {
  }
 
  .child{
-   padding-bottom: 50px;
-   display: block;
+   display: inline-block;
    text-align: center;
    border-style: solid;
   
