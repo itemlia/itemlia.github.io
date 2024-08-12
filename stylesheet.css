@@ -58,11 +58,11 @@ body {
     text-align: center;
  }
 
- .projects{
+ .child{
    text-align: center;
    border-style: double;
    margin: auto;
-   width: 820px;
+   width: 800px;
  } 
 
  .center.project{
