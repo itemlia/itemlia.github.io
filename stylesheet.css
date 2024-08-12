@@ -74,4 +74,9 @@ body {
   padding-bottom: 2px;
   padding-top: 3px;
  }
+
+ iframe {
+  display: block;
+  border-style: none;
+}
   
