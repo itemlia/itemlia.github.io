@@ -59,7 +59,7 @@ body {
  }
 
  .child{
-   margin-bottom: 10000px;
+   padding-bottom: 50px;
    display: block;
    text-align: center;
    border-style: solid;
