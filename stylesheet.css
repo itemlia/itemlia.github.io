@@ -64,6 +64,7 @@ body {
    text-align: center;
    border-style: solid;
    margin: auto;
+   width: auto;
  } 
 
  .center.project{
