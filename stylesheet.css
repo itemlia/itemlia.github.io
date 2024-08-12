@@ -48,7 +48,7 @@ body {
   }
 
   a:hover {
-    color:rgb(25, 81, 185);
+    color:rgb(8, 38, 93);
   }
 
  .normal{
@@ -60,9 +60,9 @@ body {
 
  .child{
    text-align: center;
-   border-style: solid;
+   border-style: double;
    /* margin: auto; */
-   width: 800x;
+   width: 780px;
  } 
 
  .center.project{
