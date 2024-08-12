@@ -48,7 +48,7 @@ body {
   }
 
   a:hover {
-    color:rgb(123, 167, 249);
+    color:rgb(232, 123, 249);
   }
 
  .normal{
@@ -64,6 +64,11 @@ body {
    margin: auto;
    width: 800px;
  } 
+
+ .child.donuts{
+  width: 580px;
+ }
+
 
  .center.project{
   padding-bottom: 2px;
