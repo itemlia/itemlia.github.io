@@ -59,12 +59,11 @@ body {
  }
 
  .child{
-   padding-bottom: 0%;
-   /*display: inline-block;*/
+   padding-bottom: 3px;
    text-align: center;
    border-style: solid;
    margin: auto;
-   width: auto;
+   width: 1200px;
  } 
 
  .center.project{
