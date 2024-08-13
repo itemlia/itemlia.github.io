@@ -11,44 +11,44 @@ body {
   }
   
   h1 {
-    color: #090089;
+    color: #555195;
     text-align: center;
   }
 
   h2 {
-    color: #090089;
+    color: #555195;
     text-align: center;
   }
 
   p.a {
-    color: #000500;
+    color: #e1e5ff;
     display: inline-block;
     text-align: center;
     
   }
 
   p.b {
-    color: #00043D;
+    color: #ffffff;
     display: inline-block;
     text-align: center;
     font-size: 14px;
   }
 
   ul {
-    color: #000500;
+    color: #ffffff;
     display: inline-block;
     list-style-position: outside;
     
   }
 
   a {
-    color: #000500;
+    color: #ffffff;
     display: inline-block;
     align-items: center;
   }
 
   a:hover {
-    color:rgb(171, 68, 200);
+    color:rgb(229, 156, 250);
   }
 
  .normal{
