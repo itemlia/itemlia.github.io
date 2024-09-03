@@ -3,15 +3,19 @@ body {
     font-family: 'Courier New', Courier, monospace;
   }
 
- image.center {
+ img.center {
     display: block;
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   
   h1 {
-    color: #555195;
+    color: #7b5195;
     text-align: center;
   }
 
@@ -20,15 +24,14 @@ body {
     text-align: center;
   }
 
-  p.a {
-    color: #e1e5ff;
+  p {
+    color: #ffffff;
     display: inline-block;
     text-align: center;
-    
   }
 
   p.b {
-    color: #ffffff;
+    color: #332e77;
     display: inline-block;
     text-align: center;
     font-size: 80%;
@@ -36,24 +39,26 @@ body {
 
   ul {
     color: #ffffff;
-    display: inline-block;
-    list-style-position: outside;
-    
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2%;
   }
 
   a {
     color: #ffffff;
     display: inline-block;
     align-items: center;
+    padding-bottom: 1%;
   }
 
   a:hover {
-    color:rgb(229, 156, 250);
+    color:rgb(163, 62, 191);
   }
 
  .normal{
     border-style: double;
-    width: 50%;
+    width: 45%;
     margin: auto;
     text-align: center;
  }
@@ -66,17 +71,19 @@ body {
  } 
 
  .child.donuts{
-  width: 65%;
- }
-
-
- .center.project{
-  padding-bottom: 10%;
-  padding-top: 10%;
+  width: 55%;
  }
 
  iframe {
   display: block;
   border-style: none;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
 }
   
