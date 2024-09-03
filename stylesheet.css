@@ -31,7 +31,7 @@ body {
     color: #ffffff;
     display: inline-block;
     text-align: center;
-    font-size: 14px;
+    font-size: 80%;
   }
 
   ul {
@@ -53,7 +53,7 @@ body {
 
  .normal{
     border-style: double;
-    width: 500px;
+    width: 50%;
     margin: auto;
     text-align: center;
  }
@@ -62,17 +62,17 @@ body {
    text-align: center;
    border-style: double;
    margin: auto;
-   width: 800px;
+   width: 65%;
  } 
 
  .child.donuts{
-  width: 580px;
+  width: 65%;
  }
 
 
  .center.project{
-  padding-bottom: 2px;
-  padding-top: 3px;
+  padding-bottom: 10%;
+  padding-top: 10%;
  }
 
  iframe {
