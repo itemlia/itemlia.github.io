@@ -1,5 +1,7 @@
 body {
-    background-color: #9B9ECE;
+    /* background-color: #9B9ECE; */
+    background-image: url("others/background.jpg");
+    background-repeat: repeat;
     font-family: 'Courier New', Courier, monospace;
   }
 
@@ -17,10 +19,11 @@ body {
   h1 {
     color: #7b5195;
     text-align: center;
+    padding-top: 2.5%;
   }
 
   h2 {
-    color: #555195;
+    color: #26216b;
     text-align: center;
   }
 
@@ -31,10 +34,10 @@ body {
   }
 
   p.b {
-    color: #332e77;
+    color: #13103d;
     display: inline-block;
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
   }
 
   ul {
@@ -54,18 +57,23 @@ body {
 
   .navbar {
     overflow: hidden;
-    background-color:rgba(184, 109, 203, 0.542);
+    background-color:rgba(184, 109, 203, 0.708);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
   a.navbar {
-    float: none;
-    display: inline-block;
+    float: left;
+    display: contents;
     color: #000000;
-    text-align: center;
     font-size: 120%;
-    background-color: rgba(184, 109, 203, 0);
+    background-color: rgba(184, 109, 203, 0.574);
     padding-top: 1%;
     padding-bottom: 1%;
+  
   }
 
   a.navbar:hover {
@@ -79,21 +87,23 @@ body {
 
  .normal{
     border-style: double;
-    width: 45%;
+    width: 65%;
     margin: auto;
     text-align: center;
     padding-top: 1%;
+    background-color: #5d569d9e;
  }
 
  .child{
    text-align: center;
    border-style: double;
+   background-color: #7b5195aa;
    margin: auto;
    width: 65%;
  } 
 
  .child.donuts{
-  width: 55%;
+  width: 60%;
  }
 
  iframe {
