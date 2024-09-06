@@ -18,14 +18,14 @@ body {
   }
   
   h1 {
-    color: #c88cee;
+    color: #d6b3ec;
     text-align: center;
     padding-top: 1%;
     font-size: 270%;
   }
 
   h2 {
-    color: #d76ef1;
+    color: #c494d0;
     text-align: center;
   }
 
@@ -59,7 +59,7 @@ body {
 
   .navbar {
     overflow: hidden;
-    background-color:rgba(184, 109, 203, 0.708);
+    background-color:rgba(213, 162, 226, 0.708);
     position: sticky;
     top: 0;
   } 
@@ -75,12 +75,12 @@ body {
 
   a.navbar:hover {
     color: #ffffff;
-    background-color: #261da371;
+    background-color: #4b42ce71;
   }
 
 
   a:hover {
-    color:rgb(148, 133, 246);
+    color:rgb(190, 181, 251);
   }
 
  .normal{
@@ -89,13 +89,13 @@ body {
     margin: auto;
     text-align: center;
     padding-top: 1%;
-    background-color: #5d569d9e;
+    background-color: #8c86c39e;
  }
 
  .child{
    text-align: center;
    border-style: double;
-   background-color: #7b5195aa;
+   background-color: #9d70b8aa;
    margin: auto;
    width: 65%;
  } 
@@ -105,12 +105,9 @@ body {
  }
 
  iframe {
-  display: block;
+  display:inline-block;
   border-style: none;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 90%;
 }
 
 footer {
