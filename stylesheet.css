@@ -20,7 +20,8 @@ body {
   h1 {
     color: #c88cee;
     text-align: center;
-    padding-top: 2.5%;
+    padding-top: 1%;
+    font-size: 270%;
   }
 
   h2 {
@@ -59,28 +60,24 @@ body {
   .navbar {
     overflow: hidden;
     background-color:rgba(184, 109, 203, 0.708);
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
+  } 
 
   a.navbar {
     float: left;
-    display: contents;
-    color: #000000;
-    font-size: 120%;
-    background-color: rgba(184, 109, 203, 0.574);
-    padding-top: 1%;
-    padding-bottom: 1%;
-  
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 
   a.navbar:hover {
     color: #ffffff;
-    background-color: #555195;
+    background-color: #261da371;
   }
+
 
   a:hover {
     color:rgb(148, 133, 246);
