@@ -42,6 +42,13 @@ body {
     font-size: 90%;
   }
 
+  p.c {
+    color: #f7baff;
+    display: inline-block;
+    text-align: center;
+    font-size: 90%;
+  }
+
   ul {
     color: #ffffff;
     list-style-position: inside;
