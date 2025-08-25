@@ -171,4 +171,12 @@ figcaption {
 #contact:hover {
   transform: scale(1.25);
 }
+
+::selection {
+  background-color: #4a046d;
+}
+
+::-moz-selection {
+  color: #ffffff;
+}
   
