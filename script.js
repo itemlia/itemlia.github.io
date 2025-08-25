@@ -7,3 +7,17 @@ function increaseProgress() {
     }
 }
 
+//typewriter effect on about me section of index page 
+var i = 0;
+var textAM = document.getElementById('about-me-del').innerHTML;
+var speed = 65;
+
+window.onload = function twAboutMe() {
+    document.getElementById('about-me-del').innerHTML = "";
+  if (i < textAM.length) {
+    document.getElementById('am-set').innerHTML += textAM.charAt(i);
+    i++;
+    setTimeout(twAboutMe, speed);
+  }
+}
+
