@@ -86,6 +86,7 @@ body {
     background-color:rgba(213, 162, 226, 0.708);
     position: sticky;
     top: 0;
+    z-index: 5;
   } 
 
   a.navbar {
@@ -95,6 +96,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
   }
 
   a.navbar:hover {
