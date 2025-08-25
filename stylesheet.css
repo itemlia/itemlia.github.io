@@ -137,4 +137,11 @@ footer {
   border-radius: 5px;
   transition: width 0.3s ease;
 }
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
   

@@ -6,3 +6,4 @@ function increaseProgress() {
         document.getElementById('progress-bar').style.width = progress + '%';
     }
 }
+
