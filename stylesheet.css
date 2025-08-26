@@ -131,16 +131,6 @@ body {
   }
 }
 
- @keyframes fadeOut {
-  from {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  to {
-    transform: translateY(100px);
-    opacity: 0;
-  }
-}
 
  .normal{
     border-style: solid;
@@ -150,7 +140,7 @@ body {
     text-align: center;
     padding-top: 1%;
     background-color: #8c86c39e;
-    animation: 0.75s both fadeInUp;
+    animation: 2s both fadeInUp;
  }
 
  .child{
@@ -159,9 +149,10 @@ body {
    border-color: #39005c;
    background-color: #9d70b8aa;
    margin: auto;
-   width: 65%;
-   animation: 0.75s both fadeInUp;
+   width: 80%;
+   animation: 2s both fadeInUp;
 
+   
  } 
 
  .child.donuts{
