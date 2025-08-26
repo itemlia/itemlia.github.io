@@ -1,8 +1,8 @@
 body {
     background-color: #03013e;
-    background-image: url(images/others/stars\ background.gif);
     background-repeat: repeat;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
   }
 
  img.center {
@@ -14,6 +14,18 @@ body {
     margin-right: auto;
     padding-top: 1%;
     padding-bottom: 1%;
+  }
+
+  .me {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    padding-bottom: 20px;
+
   }
 
   .img-link {
@@ -36,7 +48,7 @@ body {
   h1 {
     color: #d6b3ec;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 5px;
     font-size: 270%;
   }
 
@@ -109,8 +121,9 @@ body {
   }
 
  .normal{
-    border-style: double;
-    width: 65%;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 85%;
     margin: auto;
     text-align: center;
     padding-top: 1%;
@@ -119,7 +132,8 @@ body {
 
  .child{
    text-align: center;
-   border-style: double;
+   border-style: solid;
+   border-color: #39005c;
    background-color: #9d70b8aa;
    margin: auto;
    width: 65%;
