@@ -21,7 +21,6 @@ window.onload = function twAboutMe() {
   }
 }
 
-
 window.onscroll = function fadeIn() {
   var appear = 20
   if (window.pageYOffset >= appear) {

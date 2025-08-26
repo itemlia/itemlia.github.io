@@ -168,6 +168,31 @@ footer {
   color: #ffffff;
 }
 
+.download-button {
+  background-color: rgba(213, 162, 226, 0.708);
+  border: solid; 
+  border-color: #d8d5ff;
+  border-radius: 15px;
+  color: #d8d5ff; 
+  padding: 1% 2%; 
+  margin-bottom: 2%;
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 20px; 
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: #4b42ce71;
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: scale(1.15);
+  box-shadow: 0 2px 8px 4px #26226a;
+  
+}
+
+
 .progress-container {
   width: 100%;
   background: #1f17f3;
