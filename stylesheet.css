@@ -57,6 +57,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: #d8d5ff;
+  text-align: center;
+  font-weight: bold;
+}
+
 p {
   color: #ffffff;
   display: inline-block;
