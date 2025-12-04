@@ -57,6 +57,10 @@ h2 {
   text-align: center;
 }
 
+.programming {
+  color: #b3b0fc;
+}
+
 h3 {
   color: #d8d5ff;
   text-align: center;
@@ -166,7 +170,16 @@ a:hover {
 } 
 
 .child.donuts{
-  width: 60%;
+  text-align: center;
+  border-style: solid;
+  border-color: #c1d1ff;
+  background-color: #636ce2aa;
+  margin: auto;
+  width: 50%;
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
+  animation: 2s both fadeInUp; 
 }
 
 .projects{
@@ -182,6 +195,10 @@ a:hover {
   animation: 2s both fadeInUp;   
 }
 
+.title {
+  animation: 2s both fadeInUp;   
+}
+
 iframe {
   display: inline-block;
   border-style: none;
@@ -191,6 +208,7 @@ iframe {
 footer {
   text-align: center;
   color: #ffffff;
+  animation: 2s both fadeInUp; 
 }
 
 .download-button {
