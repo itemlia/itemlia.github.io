@@ -8,6 +8,9 @@ body {
 .center {
   display: block;
   max-width: 80%;
+  @media only screen and (max-width: 600px) {
+    width: 70%;
+  }
   height: auto;
   object-fit: contain;
   margin-left: auto;
@@ -15,6 +18,24 @@ body {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
+.contact {
+  display: block;
+  
+  height: auto;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 100px;
+  width: 100px;
+  @media only screen and (max-width: 600px) {
+    width: 40px;
+    height:40px;
+  }
+}
+
 
 .me {
   display: block;
@@ -50,6 +71,9 @@ h1 {
   text-align: center;
   padding-top: 5px;
   font-size: 270%;
+  @media only screen and (max-width: 600px) {
+    font-size: 180%;
+  }
 }
 
 h2 {
@@ -78,6 +102,9 @@ p.b {
   display: inline-block;
   text-align: center;
   font-size: 90%;
+  @media only screen and (max-width: 600px) {
+    font-size: 50%;
+  }
 }
 
 p.c {
@@ -85,6 +112,9 @@ p.c {
   display: inline-block;
   text-align: center;
   font-size: 90%;
+  @media only screen and (max-width: 600px) {
+    font-size: 50%;
+  }
 }
 
 ul {
@@ -118,6 +148,9 @@ a.navbar {
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bold;
+  @media only screen and (max-width: 600px) {
+    padding: 4px 6px;
+  }
 }
 
 a.navbar:hover {
@@ -147,13 +180,14 @@ a:hover {
   padding-left: 8px;
   padding-right: 8px;
   width: 55%;
-  @media only screen and (max-width: 600px) {
-    width: 85%;
-  }
   margin: auto;
   text-align: center;
   background-color: #8c86c39e;
   animation: 2s both fadeInUp;
+  @media only screen and (max-width: 600px) {
+    width: 85%;
+  }
+  
 }
 
 .child{
@@ -163,10 +197,10 @@ a:hover {
   background-color: #9d70b8aa;
   margin: auto;
   width: 50%;
+  animation: 2s both fadeInUp;   
   @media only screen and (max-width: 600px) {
     width: 80%;
   }
-  animation: 2s both fadeInUp;   
 } 
 
 .child.donuts{
